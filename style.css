@@ -1,0 +1,92 @@
+.header {
+  background-color: #ec7870ef;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  border: 0.2rem solid #555;
+}
+.header::after{
+    content: "<Header>";
+}
+
+.nav{
+  background-color: #54c1f3ef;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  border: 0.2rem solid #555;
+}
+.nav::after{
+    content: "<Nav>";
+}
+
+.section{
+    background-color: #ece470ef;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border: 0.2rem solid #555;
+    width: 75vw; 
+    height: 5vh;
+    
+}
+.section::after{
+    content: "<Section>";
+}
+.heading{
+    background-color: #ec7870ef;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center; 
+    border: 0.2rem solid #555;
+    width: 73vw; 
+    height: 5vh;
+}
+.heading::after{
+    content: "Heading";
+}
+
+aside{ 
+    background-color: rgb(161, 154, 154);
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border: 0.2rem solid #555;
+    line-height: 40vh;
+    float: right;
+    width: 25vw; 
+    height: 45.5vh;
+}
+aside::after{
+    content: "<Aside>";  
+}
+
+.article{
+    background-color: #cc60beef;
+    padding: 0.6rem;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    border: 0.2rem solid #555;
+    line-height: 30vh;
+    width: 71.3vw; 
+    height: 30vh;
+}
+.article::after{
+    content: "<Article>";
+}
+
+.footer{
+    background-color: #e9ae55ef;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center; 
+    border: 0.2rem solid #555; 
+}
+.footer::after{
+    content: "<Footer>";
+}
