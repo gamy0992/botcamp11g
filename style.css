@@ -57,7 +57,6 @@ aside{
     line-height: 1110%;
     float: right;
     width: 25%; 
-    height: 700000%;
 }
 aside::after{
     content: "<Aside>";  
