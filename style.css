@@ -28,8 +28,8 @@
     font-weight: bold;
     text-align: center;
     border: 0.2rem solid #555;
-    width: 53.3rem; 
-    height: 2rem;
+    width: 74%; 
+    height: 5%;
     
 }
 .section::after{
@@ -41,8 +41,8 @@
     font-weight: bold;
     text-align: center; 
     border: 0.2rem solid #555;
-    width: 53.3rem; 
-    height: 2rem;
+    width: 74%; 
+    height: 5%;
 }
 .heading::after{
     content: "Heading";
@@ -54,10 +54,10 @@ aside{
     font-weight: bold;
     text-align: center;
     border: 0.2rem solid #555;
-    line-height: 40vh;
+    line-height: 1110%;
     float: right;
-    width: 18rem; 
-    height: 17rem;
+    width: 25%; 
+    height: 700000%;
 }
 aside::after{
     content: "<Aside>";  
@@ -70,9 +70,9 @@ aside::after{
     font-weight: bold;
     text-align: center;
     border: 0.2rem solid #555;
-    line-height: 30vh;
-    width: 53rem; 
-    height: 11rem;
+    line-height: 740%;
+    width: 72.2%; 
+    height: 10%;
 }
 .article::after{
     content: "<Article>";
